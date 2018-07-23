@@ -15,6 +15,13 @@
     margin-top: 40px;
   }
 
+  .btn{
+    position: relative;
+    transition: .5s ease;
+    top: 175px;
+    
+  }
+
   .img{
 
     height: 250px;
@@ -30,8 +37,8 @@
   }
   
   body {
-    background: url(/assets/images/solar_flare.jpeg);
- 
+    background: url('/assets/images/solar_flare.jpeg');
+    background-size: cover;  
   }
   .jumbotron {
     box-sizing: border-box;
